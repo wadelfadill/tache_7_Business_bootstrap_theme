@@ -1,0 +1,80 @@
+/* ===== General ====== */
+
+:root{
+    --red-color: #BD1111;
+    --bg-red:#490909;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --bg-beize:#F6E1C5;
+    --bg-red-black: #311919;
+    --bg-red-opac:rgba(165, 52, 43, 0.69);
+    --red-border: #CD5449;
+}
+
+
+/* ==========first section ========= */
+#first_section{
+    margin-top: 202px;
+    margin-bottom: 202px;
+    width: 100%;
+}
+#first_section .photo_fisrt{
+    max-width: 844px;
+    height: 604px;
+    background: url("../images/gateau-p.png");
+    align-self: center;
+}
+#first_section .box-top{
+    max-width: 413px;
+    min-height: 150px;
+    background: var(--bg-beize);
+    padding-top: 39px;
+    padding-bottom: 39px;
+    border-radius: 5px;
+    width: max-content;
+}
+#first_section .box-top .p1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+#first_section .box-top .p2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+}
+#first_section .box-bottom{
+    max-width: 521px;
+    min-height: 189px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: absolute;
+    bottom: -100px;
+    left: -198px;
+    background: var(--bg-beize);
+    border-radius: 5px;
+}
+#first_section .box-bottom p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+/* ============== responsive css ================ */
+@media screen and (max-width:768px) {
+    #first_section .box-bottom{
+        position: relative !important;
+        transform: translateY(50%);
+    }
+    
+}
+

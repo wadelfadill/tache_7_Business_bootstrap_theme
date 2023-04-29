@@ -1,0 +1,43 @@
+/* ===== General ====== */
+
+:root{
+    --red-color: #BD1111;
+    --bg-red:#490909;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --bg-beize:#F6E1C5;
+    --bg-red-black: #311919;
+    --bg-red-opac:rgba(165, 52, 43, 0.69);
+    --red-border: #CD5449;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: url("images/1.jpeg"),  rgba(34, 24, 24, 0.6);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* ===== squelette ====== */
+/* ===== header section ====== */
+#header .first_title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: var(--red-color);
+}
+#header .second_title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 76px;
+    line-height: 93px;
+    color: var(--white-color);
+}
+

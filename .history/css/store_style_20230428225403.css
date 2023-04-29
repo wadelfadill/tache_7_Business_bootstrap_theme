@@ -1,0 +1,92 @@
+/* ===== General ====== */
+
+:root{
+    --red-color: #BD1111;
+    --bg-red:#490909;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --bg-beize:#F6E1C5;
+    --bg-red-black: #311919;
+    --bg-red-opac:rgba(165, 52, 43, 0.69);
+    --red-border: #CD5449;
+}
+
+/* ==== first section ==== */
+#first_section{
+    margin-top: 202px;
+    margin-bottom: 202px;
+    width: 100%;
+    padding-bottom: 74px;
+    padding-top: 74px;
+    background: var(--bg-red-opac);
+}
+.border_box{
+    padding: 11px;
+    border: 1px solid var(--red-border);
+}
+.table_box{
+    background: var(--bg-beize);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 52px;
+    padding-bottom: 52px;
+}
+.table_box h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+.table_box h4{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+
+}
+.table_box h6{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+
+}
+table td{
+    font-family: 'MingLiU_HKSCS-ExtB';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+table{
+    color: black;
+    border-color: #1b1b1b !important;
+}
+.table-box-foot{
+    padding-top: 65px;
+}
+
+/* ======== second section ============*/
+#second_section img{
+    max-width: 1168px;
+    min-height: 418px;
+}
+#second_section .box{
+    position: relative;
+    top: -100px;
+    max-width: 964px;
+    min-height: 418px;
+    background: var(--bg-beize);
+    padding-top: 58px;
+    padding-bottom: 82px;
+    padding-left: auto;
+    padding-right: auto;
+    
+}

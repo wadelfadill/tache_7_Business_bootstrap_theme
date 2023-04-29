@@ -1,0 +1,56 @@
+/* ===== General ====== */
+
+:root{
+    --red-color: #BD1111;
+    --bg-red:#490909;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --bg-beize:#F6E1C5;
+    --bg-red-black: #311919;
+    --bg-red-opac:rgba(165, 52, 43, 0.69);
+    --red-border: #CD5449;
+}
+
+/* ===== section =======*/
+#section{
+    margin-top: 102px;
+    margin-bottom: 102px;
+}
+#section .photo{
+    align-self: center;
+    max-width: 1168px;
+    height: 418px;
+    background: url("../images/img-tous.png");
+}
+#section .box{
+    width: 726px;
+    height: 320px;
+    background: var(--bg-beize);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+}
+#section .box h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+#section .box h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+}
+#section .box p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}

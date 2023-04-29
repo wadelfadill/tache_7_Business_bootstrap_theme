@@ -1,0 +1,54 @@
+/* ===== General ====== */
+
+:root{
+    --red-color: #BD1111;
+    --bg-red:#490909;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --bg-beize:#F6E1C5;
+    --bg-red-black: #311919;
+    --bg-red-opac:rgba(165, 52, 43, 0.69);
+    --red-border: #CD5449;
+}
+
+/* ==== first section ====== */
+#first_section .div-1{
+    height:370px;
+    background: var(--bg-beize);
+    border-radius: 5px;
+}
+#first_section .div-1 h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.19em;
+}
+#first_section .div-1 h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.19em;
+}
+#first_section .div-1 p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.19em;
+}
+#first_section .div-1 button{
+    width: 194px;
+    height: 68px;
+}
+#first_section .div-2{
+    background: url("../images/home-img1.png");
+    height: 576.04px;
+}

@@ -1,0 +1,91 @@
+/* ===== General ====== */
+
+:root{
+    --red-color: #BD1111;
+    --bg-red:#490909;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --bg-beize:#F6E1C5;
+    --bg-red-black: #311919;
+    --bg-red-opac:rgba(165, 52, 43, 0.69);
+    --red-border: #CD5449;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(rgba(34, 24, 24, 0.6), rgba(34, 24, 24, 0.6)), url("../images/1.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* ===== squelette ====== */
+/* ===== header section ====== */
+/* ===== header titles ======= */
+#header .first_title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: var(--red-color);
+    margin-top: 65px;
+}
+#header .second_title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 76px;
+    line-height: 93px;
+    color: var(--white-color);
+}
+/* ====== header navbar ======*/
+#header nav{
+    background: var(--bg-red);
+    height: 124px;
+}
+#header nav ul li{
+    margin-top: 48px;
+}
+#header nav a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--white-color);
+}
+#header nav a.active{
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+/* ==== Main section ==========*/
+/* main{
+    height: 1000px;
+} */
+/* ====== footer section ====== */
+#footer{
+    height: 162px;
+    background: var(--bg-red-black);
+    padding-top: 70px;
+}
+#footer p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--white-color);
+}
+
+
+/* ===== responsive css ======*/
+@media screen and (max-width:550px) {
+    .second_title{
+        font-size: 20px;
+    }
+}
+
