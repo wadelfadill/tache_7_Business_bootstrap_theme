@@ -21,8 +21,8 @@
     margin-right: 5px; */
     align-self: center;
     max-width: 1168px;
-    max-height: 418px;
-    /* background: url("../images/img-tous.png"); */
+    height: 418px;
+    background: url("../images/img-tous.png");
 }
 #section .box{
     width: 726px;
@@ -62,7 +62,6 @@
     #section .box{
         width: auto;
         height: max-content;
-        top: -10px;
     }
     
 }

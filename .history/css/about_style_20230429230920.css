@@ -62,7 +62,7 @@
     #section .box{
         width: auto;
         height: max-content;
-        top: -10px;
+        top: 10px;
     }
     
 }

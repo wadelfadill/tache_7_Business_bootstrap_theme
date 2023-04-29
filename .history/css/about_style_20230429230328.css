@@ -17,12 +17,12 @@
     margin-bottom: 102px;
 }
 #section .photo{
-    /* margin-left: 5px;
-    margin-right: 5px; */
+    margin-left: 5px;
+    margin-right: 5px;
     align-self: center;
     max-width: 1168px;
-    max-height: 418px;
-    /* background: url("../images/img-tous.png"); */
+    height: 418px;
+    background: url("../images/img-tous.png");
 }
 #section .box{
     width: 726px;
@@ -62,7 +62,6 @@
     #section .box{
         width: auto;
         height: max-content;
-        top: -10px;
     }
     
 }
