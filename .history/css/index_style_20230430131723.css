@@ -148,25 +148,5 @@
     #second_section .box{
         height: max-content;
     }
-}
-@media screen and (max-width:1200px) and (min-width:768px) {
-    #first_section .container .row{
-        /* display: flex !important;
-        flex-direction: row !important; */
-    }
-    #first_section .div-1{
-        left: 0;
-        margin: auto;
-        align-self: center;
-    }
-    #first_section img{
-        height: 576.04px;
-        width: 864px;
-        margin: auto;
-    }
-    #first_section .div-2{
-        width: 864px;
-        margin: auto;
-    }
-    
+   
 }

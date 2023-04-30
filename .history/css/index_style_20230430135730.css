@@ -156,16 +156,11 @@
     }
     #first_section .div-1{
         left: 0;
-        margin: auto;
-        align-self: center;
+        /* margin: auto; */
     }
     #first_section img{
-        height: 576.04px;
-        width: 864px;
-        margin: auto;
-    }
-    #first_section .div-2{
-        width: 864px;
+        /* height: auto; */
+        width: 100%;
         margin: auto;
     }
     

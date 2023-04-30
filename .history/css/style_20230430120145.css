@@ -97,8 +97,8 @@ body{
         flex-direction: column !important;
         text-align: center
     }
-    /* #header nav a.active{
-        
-    } */
+    #header nav a.active{
+        border-bottom-width: 30%;
+    }
 }
 
